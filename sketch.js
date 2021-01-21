@@ -21,12 +21,12 @@ function setup(){
     tom=createSprite(800, 650, 20, 30);
     tom.addAnimation("catFirstImage",tomImg1,tomImg2);
     tom.scale=0.1;
-    tom.debug=true;
+    tom.debug=false;
 
     jerry=createSprite(100,650,10,10);
     jerry.addAnimation("mouseFirstImage",jerryImg1);
     jerry.scale=0.1;
-    jerry.debug=true;
+    jerry.debug=false;
 
     keyPressed();
 
